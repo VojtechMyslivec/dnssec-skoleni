@@ -24,7 +24,7 @@ Pro testovaci ucely pridat parametr:
 
     head -c 16 /dev/random | xxd -p
 
-Podepsani s NSEC3 zaznamy
+Podepsani s `NSEC3` zaznamy
 
     dnssec-signzone -o z110.skoleni. -N UNIXTIME -3 8c9a745f9bcf5a5e19ed98dc1a3bd885 -H 10 -k keys/Kz110.skoleni.+008+23470.key zones/z110.skoleni.conf keys/Kz110.skoleni.+008+28854.key
 
@@ -32,11 +32,11 @@ Podepsani s NSEC3 zaznamy
 
 ### Faze 0
 
- * Vypnuti automatickeho podepisovni demonem *bind*
+  * Vypnuti automatickeho podepisovni demonem *bind*
 
 ### Faze 1
 
-  * Vygenerovani noveho klice
+  * Vygenerovani noveho *ZSK* klice
   * Pridani noveho klice jako `$INCLUDE` do zonoveho souboru
   * Podepsani zony starym klicem
   * Reload demona
@@ -61,13 +61,13 @@ Algorithm: RSASHA256: KSKs: 1 active, 0 stand-by, 0 revoked
 
 Kontrola
 
-  * Viz Faze 1 -- zmeni se jen *ID* u `RRSIG`
+  * Viz Faze 1 - zmeni se jen *ID* u `RRSIG`
 
 ### Faze 3
 
   * Pockat na vyprseni TTL `RRSIG` zaznamu
-  * Odstranit stary KSK klic
-  * Podepsat (novym) KSK klicem
+  * Odstranit stary *ZSK* klic
+  * Podepsat (novym) *ZSK* klicem
   * Reload demona
 
 Kontrola
