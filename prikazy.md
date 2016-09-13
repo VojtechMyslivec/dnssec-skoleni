@@ -28,3 +28,9 @@ Podepsani s NSEC3 zaznamy
 
     dnssec-signzone -o z110.skoleni. -N UNIXTIME -3 8c9a745f9bcf5a5e19ed98dc1a3bd885 -H 10 -k keys/Kz110.skoleni.+008+23470.key zones/z110.skoleni.conf keys/Kz110.skoleni.+008+28854.key
 
+## Vymena ZSK
+
+### Faze 0
+
+ * Vypnuti automatickeho podepisovni demonem *bind*
+
