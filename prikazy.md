@@ -52,6 +52,7 @@ Algorithm: RSASHA256: KSKs: 1 active, 0 stand-by, 0 revoked
 
   * `dig z110.skoleni. DNSKEY +dnssec`
     * Vrati 3 `DNSKEY` a 2 `RRSIG` zaznamy
+    * `NOERROR`, `ad` flag
 
 ### Faze 2
 
@@ -61,4 +62,25 @@ Algorithm: RSASHA256: KSKs: 1 active, 0 stand-by, 0 revoked
 Kontrola
 
   * Viz Faze 1 -- zmeni se jen *ID* u `RRSIG`
+
+### Faze 3
+
+  * Pockat na vyprseni TTL `RRSIG` zaznamu
+  * Odstranit stary KSK klic
+  * Podepsat (novym) KSK klicem
+  * Reload demona
+
+Kontrola
+
+  * Vystup dnssec-signzone
+
+```
+Algorithm: RSASHA256: KSKs: 1 active, 0 stand-by, 0 revoked
+                      ZSKs: 1 active, 0 stand-by, 0 revoked
+
+```
+
+  * `dig z110.skoleni. DNSKEY +dnssec`
+    * Vrati 2 `DNSKEY` a 2 `RRSIG` zaznamy
+    * `NOERROR`, `ad` flag
 
