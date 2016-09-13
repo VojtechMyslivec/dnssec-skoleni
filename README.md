@@ -1,5 +1,9 @@
 # Skoleni DNSSEC
 
+Autori skoleni:
+  - **Petr Cernohouz**, cz.nic
+  - **Jan Kadlec**, cz.nic
+
 ## Generovani klicu
 
 Pro testovaci ucely pridat parametr:
