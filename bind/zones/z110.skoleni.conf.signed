@@ -1,51 +1,43 @@
-; File written on Tue Sep 13 10:56:47 2016
+; File written on Tue Sep 13 12:11:40 2016
 ; dnssec_signzone version 9.10.3-P4-Ubuntu
 z110.skoleni.		20	IN SOA	a.ns.z110.skoleni. hostmaster.z110.skoleni. (
-					1473764207 ; serial
+					1473768700 ; serial
 					10800      ; refresh (3 hours)
 					320        ; retry (5 minutes 20 seconds)
 					120920     ; expire (1 day 9 hours 35 minutes 20 seconds)
 					20         ; minimum (20 seconds)
 					)
 			20	RRSIG	SOA 8 2 20 (
-					20161013095647 20160913095647 28854 z110.skoleni.
-					ju0q/Egb9VQxdCNDr+w3hDYzrwpWrut9VzMM
-					D8rbKp3190ymbFwuvJNMbFAvdSxMu7e/NMHo
-					hieRjonXZlmcTfmZgwlDEwpX3MtnIkEITKco
-					RgrZWqfhRlVUnMEGQwJZTlAaVwAcsHNCYkp3
-					l32uboexmKZyQVDVRY2+luiHES4= )
+					20161013111140 20160913111140 28854 z110.skoleni.
+					FZLrOQLQEFmVm/8JCxzwtS8Jj0bO68gUexh1
+					f0v8VHfha8W5N9ibpqMgl0GsoUbuyzvGprI+
+					76ao98qOUtaUm8ccpytheecPjLXFGYqRu1kl
+					lCf3GZStVXRMQ/Hys4CThNQmdRkBGUZ1zHwa
+					Du7i2ZF5MhqV401wFRfPhE6RGDs= )
 			20	NS	a.ns.z110.skoleni.
 			20	RRSIG	NS 8 2 20 (
-					20161013095647 20160913095647 28854 z110.skoleni.
-					h7Kv9mMrd0Wtyign9VLtqYSu0zh2sG7Au0yP
-					41SGfwQtsy8Mh8fzlcn6ACqwbb8JnCMe0iXL
-					tmm6qKZW8bjtO+ru3ybQVgDw1Bkf6hPKfmi/
-					rlbNDKZLWJPrvULanIloRm/+u4BRtGUS9ghg
-					pIVNm4GZz0Mm85zmVfO/JV4MrMA= )
+					20161013111140 20160913111140 28854 z110.skoleni.
+					SnI4OHfhokQv6fULLZrT1YUyMadU9H+gVqXr
+					uY71/X+/K8gQ0usLfWcM2uDrbPL9dOavEdKk
+					kKsC9M2vk8tJwFFdTfXofqQdwgHv6TfsMdTe
+					BHvzDqEhpmVRc41RV/ja5WmoCtzq8vIzw8z/
+					cGfDIMXacx28gTmW6racYjwi5gM= )
 			20	A	10.0.0.110
 			20	RRSIG	A 8 2 20 (
-					20161013095647 20160913095647 28854 z110.skoleni.
-					IL0ibiWeIp/Pr7GRDRFgAmkQfJVbdJ7xF2zl
-					pvnfooiJh98c3kbtzlMQz30URwzQGcFSkHr9
-					yoNVoaSMDaJfdoy5HJQMGNEmzm+O149Lbvrt
-					2mDYvIbo81kotlB67Y5vreX/Eoec9Dx68me6
-					DHvf0W3XgTa5mhRQFUclqUfTg4o= )
+					20161013111140 20160913111140 28854 z110.skoleni.
+					PIO8GKXXXD5h0HHxpwbTKO5lWhF/M9sulFHy
+					NyjY8nHWH6nIppEQzUjA5TBXPBCLtBuRBi/N
+					2ATgehHIoPw3DQevGZH2V1YHQtMkLzHGFgin
+					919bAthdS6QP85qq7wA5+aD2JGaIjt7t67v8
+					wXDFFrcIyyENWErl7+j4ecy/lSM= )
 			20	AAAA	2001:1488:a000:0:225:abff:fe64:1a77
 			20	RRSIG	AAAA 8 2 20 (
-					20161013095647 20160913095647 28854 z110.skoleni.
-					sNq+4NLE2CbZj+QkcneTMcPVKdxC3g0Sc82+
-					4OD2k16y90eYfwva6vE0tEn4cCDp5ylvsl03
-					8549My4f/CckGAK3ng6K5leuLdG/FfS1MyGW
-					+9LgPzQDx+dqprG2DcXX6ffXGb7mOAh937BZ
-					nDI40xbQsIHW1Q4tjFJ4CQpHa5g= )
-			20	NSEC	a.ns.z110.skoleni. A NS SOA AAAA RRSIG NSEC DNSKEY
-			20	RRSIG	NSEC 8 2 20 (
-					20161013095647 20160913095647 28854 z110.skoleni.
-					Ny3nyPN4I0hkLKp6SoTQ0ob41waFwfZekrh6
-					CEFLjY2du7IWOS1Y/3dZ3DZ75x6CJ6lo2g5z
-					dY+nRdiy1xthceet8yHU8LbMHOEQp5I/k86E
-					BMmlmVkUjZ5ljVV8qCF4ebNK2CUQzpJ/TT1R
-					rYCGb3eIF1XwMG2MISuABkDgR3o= )
+					20161013111140 20160913111140 28854 z110.skoleni.
+					XRJV/CbP+2L056Cp06SM2ZWQD4JuaTPnXxV2
+					V8Oq8wEBZ+3Ub1/iuU1MJGa4pJjQAA3kUpO0
+					oKY2ePZlIzkgEBJCddvmhV1/5wSe5ADUmmnx
+					77mxD6DqLaop43zreke7kRq8xbrcka2VmMME
+					FYmb0d4W3TmaBpuwO6jzicZ09DA= )
 			20	DNSKEY	256 3 8 (
 					AwEAAcEiLfST1qB2E2rVLWZj7hSc/Yz/cMxm
 					WHdWCocReeku45ZVLaK0yQQIOENrksySYzph
@@ -66,61 +58,92 @@ z110.skoleni.		20	IN SOA	a.ns.z110.skoleni. hostmaster.z110.skoleni. (
 					CqDRwwitUnW7OvocVHen6Ts=
 					) ; KSK; alg = RSASHA256; key id = 23470
 			20	RRSIG	DNSKEY 8 2 20 (
-					20161013095647 20160913095647 23470 z110.skoleni.
-					G3CiiIQX1jDWHmI56x7bgu5KRvI9083O+wFR
-					R43dYasHsaBWfm/sOog4PcLRMhPQBLLSiCkm
-					hNLAfVReiCZcs8a9Lr4+j4PtcRCF6LJExkkd
-					SN6zwaA5JoVB+T8r9t7zMombo1uxM22sDTnI
-					oZ34ZPHEU1+3lYQP4zrw5utdDr+TLqQ5jb/r
-					GCDC6eNHfPGTX7H8MlmmpeC1Ox9e6M90GDju
-					F9xgQKwIz6/zUDArdJFHSvnCtvicqZ+xc/Fy
-					Mqulmk5K0L4j3CKEgHKtEh5IT2bDZy51Gbq6
-					E4Wrxn9fZShawMreN92NXlQEIOZJUNC5hO8g
-					RlM7e2soEg09a90PHw== )
+					20161013111140 20160913111140 23470 z110.skoleni.
+					mR5KI4WurLcutzJ4SOF675AECaP0MF4UkfxD
+					ifdkYaNNwaOXPtWt4BkS79+lsFyQ4MX51Xf3
+					jONm3HPUjNTBN9Gz9GrtmOtGWZ2IBriKx+R4
+					fld5Qdhb6AkdHceEk9mEui0wBNHq6Ph+q5Pf
+					+Ys1rGbmSfAqtsMp4EWvgQnJ0ewPdcg/Afus
+					Z9Q64BDW2dKqzIHR9kfMtNyWP17Nf0jwURsl
+					/yOTSsp0N7UZOtW9H0zJR0qidAPgZFoVI+eI
+					Vo6s+L++0xxKQzEWuK0tLdEwwAjpShzDH4ZX
+					7NzOjWZh/baNXXA+SWcBLWBgzhXsypV7xOVd
+					0T72d8RsLgm6s2G9+Q== )
 			20	RRSIG	DNSKEY 8 2 20 (
-					20161013095647 20160913095647 28854 z110.skoleni.
-					jS2zc9G1ZSBKi5Zh+gUlyUB9Y98ACzbQkPH1
-					Vwsv5RhRO9xMQHwwpFySij6lZRpimK2ktpB2
-					bZIBj/b/WuBkhtc3S3toPAvR7S1iPXmFmh2u
-					n1BzOQcDxn/7LOp7VgBsiMYyHsxMEpBcyeog
-					pqhBSyMC2Ue+M4QHdcv94E0xgHM= )
+					20161013111140 20160913111140 28854 z110.skoleni.
+					D6mgw1yMa4O+ECGNTmQsg24Ix2GCieq5IvSU
+					8UBDiD2yewsKWiWqdHs9Gu7VjhA9+jCV4t5i
+					x8hyITTJaehI/wLHkEgh5K6h0opPztL4Uq1d
+					ispSlaJareM6eTA6CzsWhRYSIwS3Nrc/RdRk
+					oSGsEOO0tLOhFwljMQnf+wFt6qo= )
+			0	NSEC3PARAM 1 0 10 8C9A745F9BCF5A5E19ED98DC1A3BD885
+			0	RRSIG	NSEC3PARAM 8 2 0 (
+					20161013111140 20160913111140 28854 z110.skoleni.
+					GwZSO8fne2SFOKHDze//Zp/NaEbdUZyIjiKq
+					i/3qFGXu9qpdBkMtkBwAG4vp74CSVtzHLxkJ
+					x3ZB4MFcJkmO4gcPEHsUyaaydi8hweeTCWw7
+					MDnUYTFs610Swe9tgTb1OoKAydBaEJWQDEQc
+					2HnIOcDOZDyIDhJslfhJxGxH5e8= )
 a.ns.z110.skoleni.	20	IN A	10.0.0.110
 			20	RRSIG	A 8 4 20 (
-					20161013095647 20160913095647 28854 z110.skoleni.
-					NJWyPF1wKOB8EgyniTprnEIewkj8O7BNdKhJ
-					eYzUtcRyaLUGvLk2fXVZVHRtYkpcUTAFq+7D
-					MKCqkHOwdpXv1yuFmNzg/KYsyW8I3RDlw0HW
-					2vx+lolXPAAqlIyzRkW4Fe9VLNrzn20POZbv
-					yhT5Zfdv1104rvCmQOornULD+Rc= )
-			20	NSEC	www.z110.skoleni. A RRSIG NSEC
-			20	RRSIG	NSEC 8 4 20 (
-					20161013095647 20160913095647 28854 z110.skoleni.
-					NCv3QePSFqTqlHbflPbRXLBIRLBGSsPRvibU
-					R3VK2rqSv9dD9Osqrr9LLM4ttfk4oeJqawcj
-					ZwodLuCcWvwk0iaMf6BKPD2t+lqhkGZdMozc
-					GDy0WHuFU24IR4xRRjkMOr7LyDOPYQFmn/Jt
-					6takl/7UJv/s2Ul8fdqukfli5KY= )
+					20161013111140 20160913111140 28854 z110.skoleni.
+					Y8y1VCfBFV1ulfRRadN6/YohZA/aK6dt3wBd
+					NY7YjS4FeUDr65UQaVn0Wug+4t0142GQL9Vr
+					Tev1i4sLukUwaZKp5fFsNbTMjl7WCEdJK1yq
+					VHDOq+QgO/NMM8TsIw12RpSMy5jXax6lAAwg
+					48blIohZ4GS/P7gcy+z5zYwnUms= )
+05UUD10CE9QJG3F462MMDA1EQ1O8DCUF.z110.skoleni. 20 IN NSEC3 1 0 10 8C9A745F9BCF5A5E19ED98DC1A3BD885 (
+					7VD65K057DNHU6OIVUJJPTS11RJGJQCG
+					A RRSIG )
+			20	RRSIG	NSEC3 8 3 20 (
+					20161013111140 20160913111140 28854 z110.skoleni.
+					Vymjmk44unQzBFoplHLHdwOrW7NY62WgvOoa
+					1/CbJmf1RySKwqAhqRY6+XXFclntVM8+iv1z
+					IFukWmAg8QF38nXIoFr32bDmlEfH+hb36F0n
+					K5e8nUDJ9mlZevNT+Rg7OS8z6SfkaNjUY0t5
+					icAKDxDQelE05O8ZnYoSOgfUVFw= )
 www.z110.skoleni.	20	IN A	10.0.0.110
 			20	RRSIG	A 8 3 20 (
-					20161013095647 20160913095647 28854 z110.skoleni.
-					V/UOZh2nPxD+xWV6fZMoxbx1+xmCXcLQmCVj
-					mjZQQufC0u83uH4jeii1NNwXwTwONSfOc0nB
-					uu8QQFkKYUJMRZ7QiEqzzY5PwydLIfzIGNe5
-					YHSs/hysp59epqdMdxO3BURR9/L1ahWrxTrg
-					6DWN0ktrxeE6pkD88B3C+QsUSlc= )
+					20161013111140 20160913111140 28854 z110.skoleni.
+					qZK0mFLJHyIZHluZCHZNnMYRX2axUgJoAhoE
+					WKo839ANx7/XEpsLBm13N8FjKvk0DMWeUODV
+					GEp+4rElUr0VaOGxc/RFw7ychqWGF96cke+X
+					OdBjccballm9VET+5K49vEiRkXc7kaqJjbqV
+					zfoZKsDyJMcnGZm1DKBUip155bI= )
 			20	AAAA	2001:1488:a000:0:225:abff:fe64:1a77
 			20	RRSIG	AAAA 8 3 20 (
-					20161013095647 20160913095647 28854 z110.skoleni.
-					lIqvPyDTMyk9174Yn9NGnQ70IDDMA8En5AXr
-					1rQ7xoFjjEGitJiGdppapehvWM/+fjWm6a/U
-					IMTL6e6TgFNJcvuhdFehjP22KPPo0D5jFNDT
-					h61ainUDq+LG05h3wl045bWXOuzprsIPvrTR
-					2DHEtlyystPPSxcxQ+4lSz4+ehk= )
-			20	NSEC	z110.skoleni. A AAAA RRSIG NSEC
-			20	RRSIG	NSEC 8 3 20 (
-					20161013095647 20160913095647 28854 z110.skoleni.
-					nt8eGWe5wF8fR5S9Ek/o9GUJyLLRmELeagZJ
-					hyiqbmAGXloTVV/b1+lMSv9E0//ISezXR4ff
-					lMMieIHchfG0BI45jpCpQsUwATKonCe24qT2
-					5vbBxXniFA/iYbFtuFZRxLPsN6q2HOfNEGoX
-					lajho11EoqjaQ4fF30jme9xfRdU= )
+					20161013111140 20160913111140 28854 z110.skoleni.
+					fZOELZovXOkZG+QPeV/i8bqLWImk49qA7OaL
+					xm00imIc6rhQOqeuC43rzLX0DqTX2zVhLSGb
+					dL2eZra0T7b8JvfEb/rGgbMXxLEBpFr8RH4U
+					CBn1UHK+mKYcfsYcYfr28QvgSLrjTYCXvHDM
+					p3WkMsbX4mwqb0AXxy3Bjxpv+jk= )
+KCUUHJ6PG9BFAET9QBITHDILD1D28BLB.z110.skoleni. 20 IN NSEC3 1 0 10 8C9A745F9BCF5A5E19ED98DC1A3BD885 (
+					05UUD10CE9QJG3F462MMDA1EQ1O8DCUF )
+			20	RRSIG	NSEC3 8 3 20 (
+					20161013111140 20160913111140 28854 z110.skoleni.
+					JA37PlLdYHl0Jwwsr903ei4lh05w1hdVZCi8
+					KsL2lLCexqcbmytN6raIxOhmep6ql8oGCvs7
+					pOuf++UvMjHLsWd5Y2I+JUwWkzmsJ36+FIK1
+					q1vxB6tozQgctrPdXIfrP7sbK8fB9Hm6Q+gE
+					M3KwvEWUtqESykN6+OSIAeTYPIc= )
+FQJMNBN63DP5LOEAUVT9AB01910H7OT3.z110.skoleni. 20 IN NSEC3 1 0 10 8C9A745F9BCF5A5E19ED98DC1A3BD885 (
+					KCUUHJ6PG9BFAET9QBITHDILD1D28BLB
+					A AAAA RRSIG )
+			20	RRSIG	NSEC3 8 3 20 (
+					20161013111140 20160913111140 28854 z110.skoleni.
+					DmlvAnjQhPF5MS98dD4Jr0b3Y/m9qzbr8zSw
+					Xc6RK1w+t1Y+6vVRxYGLKekRsx8Vy7SIezvM
+					tYxTViiDf0hv3yXluqIZm/56F0rmf8aI4Qdq
+					EUVH/vKNR5f5GL7OcjD68X+AoJZYNk7a7Nih
+					nQoiDq3Ox2Zd+97TI867YcrHhKM= )
+7VD65K057DNHU6OIVUJJPTS11RJGJQCG.z110.skoleni. 20 IN NSEC3 1 0 10 8C9A745F9BCF5A5E19ED98DC1A3BD885 (
+					FQJMNBN63DP5LOEAUVT9AB01910H7OT3
+					A NS SOA AAAA RRSIG DNSKEY NSEC3PARAM )
+			20	RRSIG	NSEC3 8 3 20 (
+					20161013111140 20160913111140 28854 z110.skoleni.
+					popf2qkMQD1omK9TaKt2wnYn1BnShmt4nTro
+					b4x4gq3noNKCL0zLpIRQ5xTqgn6pDR7w+Wbt
+					Eczex6o1DOHkA3Bc9j5FJwbXZLdjczSNGpMZ
+					M3eUlt5KtUZfs5uXYlUxYqnVYWbVml7Uolpx
+					T/K6gTD79hjaBorUn++5fWthvog= )
