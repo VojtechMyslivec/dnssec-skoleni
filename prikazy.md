@@ -84,3 +84,30 @@ Algorithm: RSASHA256: KSKs: 1 active, 0 stand-by, 0 revoked
     * Vrati 2 `DNSKEY` a 2 `RRSIG` zaznamy
     * `NOERROR`, `ad` flag
 
+## Vymena KSK
+
+### Faze 0
+
+  * dtto
+
+### Faze 1
+
+  * Vygenerovani noveho *KSK* klice
+  * Pridani noveho klice jako `$INCLUDE` do zonoveho souboru
+  * Podepsani zony obema klici (parametr `-k KSK.key` dvakrat)
+  * Reload demona
+  * Poslani noveho *KSK* nadrazene zone
+
+Kontrola
+
+  * Vystup dnssec-signzone
+
+```
+Algorithm: RSASHA256: KSKs: 2 active, 0 stand-by, 0 revoked
+                      ZSKs: 1 active, 0 stand-by, 0 revoked
+```
+
+  * `dig z110.skoleni. DNSKEY +dnssec`
+    * Vrati 3 `DNSKEY` a 3 `RRSIG` zaznamy
+    * `NOERROR`, `ad` flag
+
