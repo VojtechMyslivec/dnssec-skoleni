@@ -34,3 +34,22 @@ Podepsani s NSEC3 zaznamy
 
  * Vypnuti automatickeho podepisovni demonem *bind*
 
+### Faze 1
+
+  * Vygenerovani noveho klice
+  * Pridani noveho klice jako `$INCLUDE` do zonoveho souboru
+  * Podepsani zony starym klicem
+  * Reload demona
+
+Kontrola
+
+  * Vystup dnssec-signzone
+
+```
+Algorithm: RSASHA256: KSKs: 1 active, 0 stand-by, 0 revoked
+                      ZSKs: 1 active, 1 stand-by, 0 revoked
+```
+
+  * `dig z110.skoleni. DNSKEY +dnssec`
+    * Vrati 3 `DNSKEY` a 2 `RRSIG` zaznamy
+
