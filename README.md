@@ -142,3 +142,7 @@ Algorithm: RSASHA256: KSKs: 1 active, 0 stand-by, 0 revoked
   * `dig z110.skoleni. DNSKEY +dnssec`
     * Vrati 2 `DNSKEY` a 2 `RRSIG` zaznamy
     * `NOERROR`, `ad` flag
+
+## knot
+
+Autoritativni server od [cz.nic](https://www.knot-dns.cz/) ♥ 🎉 
