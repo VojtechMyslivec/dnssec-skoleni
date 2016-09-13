@@ -142,3 +142,18 @@ Algorithm: RSASHA256: KSKs: 1 active, 0 stand-by, 0 revoked
   * `dig z110.skoleni. DNSKEY +dnssec`
     * Vrati 2 `DNSKEY` a 2 `RRSIG` zaznamy
     * `NOERROR`, `ad` flag
+
+## knot
+
+Autoritativni server od [CZ.NIC Labs](https://www.knot-dns.cz/) ♥ 🎉 
+
+  * *DNSSEC* je plne automatizovany
+    * Je nutne priradit *policy* k definovane zone
+  * [Dokumentace](https://www.knot-dns.cz/docs/2.x/html/)
+
+### Ladeni
+
+Prikaz `knotc`
+
+  * napriklad `knotc zone-status`
+
