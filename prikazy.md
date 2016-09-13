@@ -111,3 +111,12 @@ Algorithm: RSASHA256: KSKs: 2 active, 0 stand-by, 0 revoked
     * Vrati 3 `DNSKEY` a 3 `RRSIG` zaznamy
     * `NOERROR`, `ad` flag
 
+### Faze 2
+
+  * Vyckani na nasazeni noveho *KSK* v nadrazene zone
+
+Kontrola
+
+  * `dig z110.skoleni. DS +dnssec @pc113`
+    * Vraci ID noveho *KSK* klice
+
