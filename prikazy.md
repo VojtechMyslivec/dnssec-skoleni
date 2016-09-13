@@ -120,3 +120,21 @@ Kontrola
   * `dig z110.skoleni. DS +dnssec @pc113`
     * Vraci ID noveho *KSK* klice
 
+### Faze 3
+
+  * Odstranit stary *KSK* klic
+  * Podepsani zony (novym) *KSK* klicem
+  * Reload demona
+
+Kontrola
+
+  * Vystup dnssec-signzone
+
+```
+Algorithm: RSASHA256: KSKs: 1 active, 0 stand-by, 0 revoked
+                      ZSKs: 1 active, 0 stand-by, 0 revoked
+```
+
+  * `dig z110.skoleni. DNSKEY +dnssec`
+    * Vrati 2 `DNSKEY` a 2 `RRSIG` zaznamy
+    * `NOERROR`, `ad` flag
