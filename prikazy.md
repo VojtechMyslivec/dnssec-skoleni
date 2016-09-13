@@ -53,3 +53,12 @@ Algorithm: RSASHA256: KSKs: 1 active, 0 stand-by, 0 revoked
   * `dig z110.skoleni. DNSKEY +dnssec`
     * Vrati 3 `DNSKEY` a 2 `RRSIG` zaznamy
 
+### Faze 2
+
+  * Podepsani zony novym klicem
+  * Reload demona
+
+Kontrola
+
+  * Viz Faze 1 -- zmeni se jen *ID* u `RRSIG`
+
