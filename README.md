@@ -145,7 +145,7 @@ Algorithm: RSASHA256: KSKs: 1 active, 0 stand-by, 0 revoked
 
 ## knot
 
-Autoritativni server od [CZ.NIC Labs](https://www.knot-dns.cz/) ♥ 🎉 
+Autoritativni server od :rocket: [CZ.NIC Labs](https://www.knot-dns.cz/) :tada:
 
   * *DNSSEC* je plne automatizovany
     * Je nutne priradit *policy* k definovane zone
